@@ -1,0 +1,55 @@
+.help {
+    background: #040D3E;
+    display: grid;
+    grid-template-columns: 494px 512px;
+    justify-content: center;
+
+    &__wrapper {
+        display: grid;
+        grid-column: 3/4;
+
+        &-title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 32px;   
+            letter-spacing: 0.325px;
+            color: $main-color2;
+        }
+        &-subtitle {
+            font-family: 'Rubik', sans-serif;
+            font-size: 15px;
+            line-height: 20px;        
+            letter-spacing: 0.2px;
+            color: #8476AA;
+        }
+
+        &__inner {
+            display: grid;
+            grid-template-columns: repeat(2, 224px);
+            column-gap: 61px;
+
+            &-item {
+
+                &-name {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.2px;
+                    color: $main-color2;
+                }
+                &-descr {
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 15px;
+                    line-height: 20px;   
+                    letter-spacing: 0.2px;
+                    color: #8476AA;
+                }
+            }
+        }
+    }
+
+}
